@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XrIRIProcess", "XrIRIProcess\XrIRIProcess.vcxproj", "{45A8D4C2-25E6-4C40-9B96-51C175CE399D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtadvanceddocking", "QtAdvancedDocking\qtadvanceddocking.vcxproj", "{49258AFF-078F-37A6-942F-8B57F73C14CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hnQtRibbonUI", "hnQtRibbonUI\hnQtRibbonUI.vcxproj", "{DC211071-B4A6-3545-83F4-79C30C76ED35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XrIRICalcuMethod", "XrIRICalcuMethod\XrIRICalcuMethod.vcxproj", "{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45A8D4C2-25E6-4C40-9B96-51C175CE399D}.Debug|x64.ActiveCfg = Debug|x64
+		{45A8D4C2-25E6-4C40-9B96-51C175CE399D}.Debug|x64.Build.0 = Debug|x64
+		{45A8D4C2-25E6-4C40-9B96-51C175CE399D}.Debug|x86.ActiveCfg = Debug|x64
+		{45A8D4C2-25E6-4C40-9B96-51C175CE399D}.Release|x64.ActiveCfg = Release|x64
+		{45A8D4C2-25E6-4C40-9B96-51C175CE399D}.Release|x64.Build.0 = Release|x64
+		{45A8D4C2-25E6-4C40-9B96-51C175CE399D}.Release|x86.ActiveCfg = Release|x64
+		{49258AFF-078F-37A6-942F-8B57F73C14CA}.Debug|x64.ActiveCfg = Debug|x64
+		{49258AFF-078F-37A6-942F-8B57F73C14CA}.Debug|x64.Build.0 = Debug|x64
+		{49258AFF-078F-37A6-942F-8B57F73C14CA}.Debug|x86.ActiveCfg = Debug|x64
+		{49258AFF-078F-37A6-942F-8B57F73C14CA}.Release|x64.ActiveCfg = Release|x64
+		{49258AFF-078F-37A6-942F-8B57F73C14CA}.Release|x64.Build.0 = Release|x64
+		{49258AFF-078F-37A6-942F-8B57F73C14CA}.Release|x86.ActiveCfg = Release|x64
+		{DC211071-B4A6-3545-83F4-79C30C76ED35}.Debug|x64.ActiveCfg = Debug|x64
+		{DC211071-B4A6-3545-83F4-79C30C76ED35}.Debug|x64.Build.0 = Debug|x64
+		{DC211071-B4A6-3545-83F4-79C30C76ED35}.Debug|x86.ActiveCfg = Debug|x64
+		{DC211071-B4A6-3545-83F4-79C30C76ED35}.Release|x64.ActiveCfg = Release|x64
+		{DC211071-B4A6-3545-83F4-79C30C76ED35}.Release|x64.Build.0 = Release|x64
+		{DC211071-B4A6-3545-83F4-79C30C76ED35}.Release|x86.ActiveCfg = Release|x64
+		{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}.Debug|x64.ActiveCfg = Debug|x64
+		{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}.Debug|x64.Build.0 = Debug|x64
+		{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}.Debug|x86.ActiveCfg = Debug|x64
+		{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}.Release|x64.ActiveCfg = Release|x64
+		{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}.Release|x64.Build.0 = Release|x64
+		{A3D35D8B-D449-47DE-B3CA-208E9B7EC83C}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = QT5.8.0
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.2.1:8080/tfs/hnsoft-laser
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = XrIRIProcess\\XrIRIProcess.vcxproj
+		SccProjectName1 = XrIRIProcess
+		SccLocalPath1 = XrIRIProcess
+		SccProjectUniqueName2 = hnQtRibbonUI\\hnQtRibbonUI.vcxproj
+		SccProjectName2 = hnQtRibbonUI
+		SccLocalPath2 = hnQtRibbonUI
+		SccProjectUniqueName3 = QtAdvancedDocking\\qtadvanceddocking.vcxproj
+		SccProjectName3 = QtAdvancedDocking
+		SccLocalPath3 = QtAdvancedDocking
+		SccProjectUniqueName4 = XrIRICalcuMethod\\XrIRICalcuMethod.vcxproj
+		SccProjectName4 = XrIRICalcuMethod
+		SccLocalPath4 = XrIRICalcuMethod
+	EndGlobalSection
+EndGlobal

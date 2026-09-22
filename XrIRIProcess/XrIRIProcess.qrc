@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/icons/Excel写入.png</file>
+        <file>Resources/icons/帮助.png</file>
+        <file>Resources/icons/参数设置.png</file>
+        <file>Resources/icons/查看全部.png</file>
+        <file>Resources/icons/打开工程.png</file>
+        <file>Resources/icons/导出.png</file>
+        <file>Resources/icons/计算几何尺寸.png</file>
+        <file>Resources/icons/扣件检查.png</file>
+        <file>Resources/icons/里程桩.png</file>
+        <file>Resources/icons/清空.png</file>
+        <file>Resources/icons/写入点云.png</file>
+        <file>Resources/icons/移除工程.png</file>
+        <file>Resources/icons/用户手册.png</file>
+        <file>Resources/icons/长短链.png</file>
+        <file>Resources/icons/坐标点转换.png</file>
+        <file>Resources/icons/更新.png</file>
+        <file>Resources/icons/slider.png</file>
+        <file>Resources/icons/xr.ico</file>
+    </qresource>
+</RCC>

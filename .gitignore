@@ -1,0 +1,362 @@
+# ============================================================
+# 通用 .gitignore
+# 适用：
+#   C++ / Qt / Visual Studio
+#   C# / .NET / WinForms / ASP.NET Core
+#   CMake / qmake
+# ============================================================
+
+
+# ============================================================
+# 1. Visual Studio
+# ============================================================
+
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.vcxproj.user
+
+# Visual Studio cache / IntelliSense
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Browse / IntelliSense database
+[Bb]rowse.VC.db
+*.VC.db
+*.VC.VC.opendb
+
+
+# ============================================================
+# 2. Visual Studio build directories
+# ============================================================
+
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+[Rr]eleases/
+
+x64/
+x86/
+
+Win32/
+ARM/
+ARM64/
+
+[Bb]in/
+[Oo]bj/
+
+# Common custom output directories
+[Bb]uild/
+[Bb]uilds/
+out/
+Out/
+
+# Visual Studio generated
+ipch/
+
+
+# ============================================================
+# 3. C / C++ build files
+# ============================================================
+
+*.obj
+*.o
+*.iobj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.exp
+
+# Incremental/link/build metadata
+*.tlog
+*.lastbuildstate
+*.log
+
+# Code analysis
+*.nativecodeanalysis.xml
+*.ruleset.cache
+
+
+# ============================================================
+# 4. Qt generated files
+# ============================================================
+
+# MOC
+moc_*.cpp
+moc_*.h
+
+# UI
+ui_*.h
+
+# RCC
+qrc_*.cpp
+
+# qmake generated
+Makefile
+Makefile.*
+.qmake.stash
+qmake.stash
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# Qt build directories
+build-*/
+cmake-build-*/
+*_autogen/
+CMakeFiles/
+
+
+# ============================================================
+# 5. CMake
+# ============================================================
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+
+CTestTestfile.cmake
+Testing/
+
+compile_commands.json
+
+cmake-build-debug/
+cmake-build-release/
+cmake-build-relwithdebinfo/
+cmake-build-minsizerel/
+
+
+# ============================================================
+# 6. C# / .NET
+# ============================================================
+
+bin/
+obj/
+
+# .NET generated
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json
+
+# Test results
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+coverage.*
+*.coverage
+*.coveragexml
+
+# NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# NuGet generated
+.nuget/
+
+# ASP.NET temporary files
+wwwroot/dist/
+wwwroot/build/
+
+
+# ============================================================
+# 7. Resharper / JetBrains
+# ============================================================
+
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+
+# ============================================================
+# 8. Windows generated files
+# ============================================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+$RECYCLE.BIN/
+
+*.lnk
+
+
+# ============================================================
+# 9. macOS
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ============================================================
+# 10. Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+*.swp
+*.swo
+
+*~
+~$*
+
+# Microsoft Office temporary files
+~$*.doc
+~$*.docx
+~$*.xls
+~$*.xlsx
+~$*.ppt
+~$*.pptx
+
+
+# ============================================================
+# 11. Logs
+# ============================================================
+
+*.log
+logs/
+Logs/
+
+
+# ============================================================
+# 12. Crash / dump files
+# ============================================================
+
+*.dmp
+*.dump
+*.mdmp
+
+
+# ============================================================
+# 13. Package / archive files
+# ============================================================
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+
+# ============================================================
+# 14. Installer generated output
+# Advanced Installer / 打包输出
+# 注意：不要忽略 *.aip，AIP 是 Advanced Installer 工程文件
+# ============================================================
+
+install-cache/
+InstallerOutput/
+PackageOutput/
+
+*.msi
+*.msix
+*.msixbundle
+
+
+# ============================================================
+# 15. Publish / deployment output
+# ============================================================
+
+publish/
+Publish/
+
+artifacts/
+Artifacts/
+
+
+# ============================================================
+# 16. Database temporary files
+# ============================================================
+
+*.db-shm
+*.db-wal
+*.db-journal
+
+*.sqlite-shm
+*.sqlite-wal
+*.sqlite-journal
+
+
+# ============================================================
+# 17. Environment / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+appsettings.Development.local.json
+appsettings.Local.json
+
+secrets.json
+
+
+# ============================================================
+# 18. Node / React
+# 如果项目同时包含前端，也可直接使用
+# ============================================================
+
+node_modules/
+
+dist/
+.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================================
+# 19. Misc IDE / Editor
+# ============================================================
+
+.history/
+.project
+.settings/
+
+
+# ============================================================
+# 20. 可选：大型编译产物
+#
+# 不建议默认开启：
+# 因为你的部分 C++ / Qt 项目可能会把第三方 DLL/LIB
+# 放在源码目录中管理。
+#
+# 如果某个项目明确不需要 Git 管理这些文件，
+# 再取消下面的注释。
+# ============================================================
+
+# *.exe
+# *.dll
+# *.lib
+# *.a
+# *.so
+# *.dylib
+# *.cab
